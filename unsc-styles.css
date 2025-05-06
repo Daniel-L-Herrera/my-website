@@ -1,0 +1,41 @@
+
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 2em;
+}
+
+#unsc-title {
+    color: #00bfff; 
+    text-align: center;
+}
+
+#unsc-image {
+    display: block;
+    margin: 1em auto;
+    border: 0.5em solid #00bfff;
+    border-radius: 1em;
+}
+
+section ul li {
+    margin-bottom: 0.5em;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.nav-link {
+    display: block;
+    text-align: center;
+    margin-top: 2em;
+    color: #00bfff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #ffcc00;
+}
