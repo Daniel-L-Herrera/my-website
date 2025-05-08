@@ -38,4 +38,25 @@ footer p {
 
 .nav-link:hover {
     color: #ffcc00;
+    /* this id for the back to home link */
+}
+a:hover{
+    color: purple; 
+    /* this is for the link on the word "Covenant */
+}
+
+#firstp, #secondp{
+    width: 48%;
+}
+#firstp{
+float: left;
+}
+
+#secondp{
+float: right;
+}
+article::after{
+    content: "";
+    display: table;
+    clear: both;
 }
