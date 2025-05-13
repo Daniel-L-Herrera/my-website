@@ -1,4 +1,3 @@
-
 body {
     background-color: #1a1a1a;
     color: #ffffff;
@@ -7,7 +6,7 @@ body {
 }
 
 #unsc-title {
-    color: #00bfff; 
+    color: #00bfff;
     text-align: center;
 }
 
@@ -40,23 +39,56 @@ footer p {
     color: #ffcc00;
     /* this id for the back to home link */
 }
-a:hover{
-    color: purple; 
+
+a:hover {
+    color: purple;
     /* this is for the link on the word "Covenant */
 }
 
-#firstp, #secondp{
+#firstp,
+#secondp {
     width: 48%;
 }
-#firstp{
-float: left;
+
+#firstp {
+    float: left;
 }
 
-#secondp{
-float: right;
+#secondp {
+    float: right;
 }
-article::after{
+
+article::after {
     content: "";
     display: table;
     clear: both;
+}
+
+/* Style the navbar */
+.navbar {
+    list-style-type: none;
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-radius: .5em;
+    border: #00bfff;
+}
+
+/* Style navbar links */
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 2em;
+    transition: background-color 0.3s ease;
+
+}
+
+/* Hover effect */
+.navbar a:hover {
+    background-color: #454545;
 }
