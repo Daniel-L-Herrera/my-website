@@ -15,8 +15,8 @@ body {
     margin: 1em auto;
     border: 5px solid #00bfff;
     border-radius: 1em;
-    width: 25%;
     max-width: 50%;
+    min-width: 35%;
 }
 
 section ul li {
