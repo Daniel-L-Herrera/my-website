@@ -6,6 +6,10 @@ body {
     padding: 2em;
 }
 
+.back-to-home {
+    text-align: center;
+}
+
 main {
     max-width: 800px;
     margin: auto;
@@ -34,13 +38,15 @@ section {
 ul li {
     margin-bottom: 0.5em;
 }
+
 footer p {
     text-align: center;
     margin-top: 2em;
     font-size: 0.9em;
     color: #cccccc;
 }
-img{
+
+img {
     display: block;
     margin: 1em auto;
     border: 5px solid #00bfff;
@@ -49,9 +55,7 @@ img{
     min-width: 35%;
 }
 
-.back-to-home{
-    text-align: center;
-}
+
 /* Style the navbar */
 .navbar {
     list-style-type: none;
