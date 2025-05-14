@@ -1,31 +1,6 @@
-body {
-    background-color: #1a1a1a;
-    color: #ffffff;
-    font-family: 'Segoe UI', sans-serif;
-    margin: 2em;
-}
-
 #unsc-title {
     color: #00bfff;
     text-align: center;
-}
-
-#unsc-image {
-    display: block;
-    margin: 1em auto;
-    border: 5px solid #00bfff;
-    border-radius: 1em;
-    max-width: 50%;
-    min-width: 35%;
-}
-
-section ul li {
-    margin-bottom: 0.5em;
-}
-
-footer p {
-    text-align: center;
-    font-size: 1.2em;
 }
 
 .nav-link {

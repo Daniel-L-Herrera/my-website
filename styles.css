@@ -1,33 +1,7 @@
-body {
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-    color: #ffffff;
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    padding: 2em;
-}
-
-main {
-    max-width: 800px;
-    margin: auto;
-    padding: 2em;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 1em;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    margin-top: 2em;
-}
-
-
-h1 {
-    text-align: center;
-    margin-bottom: 1em;
-    border-bottom: 2px solid #00bfff;
-    padding-bottom: 0.5em;
-}
-
 #masterchief {
     display: block;
     margin: 1em auto;
-  border: 5px solid #00bfff;
+    border: 5px solid #00bfff;
     border-radius: 1em;
     max-width: 50%;
     min-width: 35%;
@@ -55,37 +29,51 @@ ul li {
     text-decoration: underline;
 }
 
-footer p {
-    text-align: center;
-    margin-top: 2em;
-    font-size: 0.9em;
-    color: #cccccc;
-}
 
-/* Style the navbar */
-.navbar {
-    list-style-type: none;
-    background-color:  linear-gradient(to right, #0f2027, #203a43, #2c5364);
-    margin: 0;
-    padding: 0px;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    border-radius: .5em;
-}
-
-/* Style navbar links */
-.navbar a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 8px 12px;
-    border-radius: 2em;
-    transition: background-color 0.3s ease;
-
-}
 
 /* Hover effect */
 .navbar a:hover {
     background-color: #454545;
+}
+
+/* Covenant-specific styles */
+#covenant-page {
+    background: linear-gradient(to bottom right, #2e003e, #4b0082, #6a0dad, #8e2de2);
+    color: #e0e0ff;
+}
+
+#covenant-page main {
+    background-color: rgba(10, 0, 20, 0.7);
+    box-shadow: 0 0 25px #6a0dad;
+    border: 2px solid #8a2be2;
+}
+
+#covenant-page h1 {
+    border-bottom: 2px solid #ff66cc;
+    color: #ffccff;
+}
+
+#covenant-page img {
+    border: 4px solid #ff00ff;
+
+}
+
+
+#covenant-page section {
+    border: 2px dashed #9932cc;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#covenant-page .faction {
+    color: #da70d6;
+}
+
+#covenant-page .faction:hover {
+    color: #ff69b4;
+    text-shadow: 0 0 5px #ff69b4;
+}
+
+/* Optional: nav bar tweaks just on covenant page */
+#covenant-page .navbar a:hover {
+    background-color: #3a003a;
 }
