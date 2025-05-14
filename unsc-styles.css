@@ -13,8 +13,10 @@ body {
 #unsc-image {
     display: block;
     margin: 1em auto;
-    border: 0.5em solid #00bfff;
+    border: 5px solid #00bfff;
     border-radius: 1em;
+    width: 25%;
+    max-width: 50%;
 }
 
 section ul li {

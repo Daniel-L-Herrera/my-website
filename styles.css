@@ -65,7 +65,7 @@ footer p {
     list-style-type: none;
     background-color:  linear-gradient(to right, #0f2027, #203a43, #2c5364);
     margin: 0;
-    padding: 15px;
+    padding: 0px;
     display: flex;
     justify-content: center;
     gap: 30px;
