@@ -6,10 +6,6 @@ body {
     padding: 2em;
 }
 
-.back-to-home {
-    text-align: center;
-}
-
 main {
     max-width: 800px;
     margin: auto;
@@ -44,6 +40,15 @@ footer p {
     margin-top: 2em;
     font-size: 0.9em;
     color: #cccccc;
+}
+
+footer nav {
+    background-color: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+
+
 }
 
 img {
@@ -83,3 +88,9 @@ img {
 .navbar a:hover {
     background-color: #454545;
 }
+
+@media only screen and (max-width: 600px) {
+   h2{
+    color: red;
+   }
+  }
