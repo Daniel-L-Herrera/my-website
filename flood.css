@@ -1,0 +1,45 @@
+/* Flood-specific styles */
+
+#flood-page {
+    background: linear-gradient(to bottom right, #3e2f1c, #4b3621, #5c442b, #6e5234);
+    color: #f0e6d2;
+}
+
+#flood-page main {
+    background-color: rgba(50, 35, 20, 0.75);
+    box-shadow: 0 0 25px #a67c52;
+    border: 2px solid #b38b6d;
+}
+
+#flood-page h1 {
+    border-bottom: 2px solid #d2b48c;
+    color: #ffe4b5;
+}
+
+#flood-page img {
+    border: 4px solid #c19a6b;
+}
+
+#flood-page section {
+    border: 2px dashed #deb887;
+    background-color: rgba(60, 40, 20, 0.3);
+}
+
+#flood-page .faction {
+    color: #e0c097;
+}
+
+#flood-page .faction:hover {
+    color: #fff5e1;
+    text-shadow: 0 0 5px #d2b48c;
+}
+
+#flood-page .navbar a:hover {
+    background-color: #5e5a55;
+}
+
+@media only screen and (max-width: 600px) {
+    #flood-page h2 {
+        color: #ffe4b5;
+    }
+}
