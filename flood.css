@@ -37,9 +37,23 @@
 #flood-page .navbar a:hover {
     background-color: #5e5a55;
 }
+/* This is for the place holder at the bottom of the page */
+.placeholder-link {
+    color: #bdb76b;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.placeholder-link:hover {
+    color: #e0c97f;
+}
+
+html {
+    scroll-behavior: smooth;
+}
 
 @media only screen and (max-width: 600px) {
     #flood-page h2 {
-        color: #ffe4b5;
+        color: #bc1aa1;
     }
 }
