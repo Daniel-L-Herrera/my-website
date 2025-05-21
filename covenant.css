@@ -1,4 +1,3 @@
-
 /* Hover effect */
 .navbar a:hover {
     background-color: #454545;
@@ -29,11 +28,6 @@
 #covenant-page .faction {
     color: #da70d6;
 }
-
-/* #covenant-page .faction:hover {
-    color: #ff69b4;
-    text-shadow: 0 0 5px #ff69b4;
-} */
 
 /* Optional: nav bar tweaks just on covenant page */
 #covenant-page .navbar a:hover {

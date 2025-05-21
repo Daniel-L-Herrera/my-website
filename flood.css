@@ -1,7 +1,5 @@
 /* Flood-specific styles */
 
-
-
 #flood-page main {
     background-color: rgba(50, 35, 20, 0.75);
     box-shadow: 0 0 25px #a67c52;
@@ -34,6 +32,7 @@
 #flood-page .navbar a:hover {
     background-color: #5e5a55;
 }
+
 /* This is for the place holder at the bottom of the page */
 .placeholder-link {
     color: #bdb76b;

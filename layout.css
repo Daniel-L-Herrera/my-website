@@ -1,6 +1,6 @@
 body {
 
-    background-image: url('../images/hp-bg.jpg');
+    background-image: url('images/hp-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     margin: 0;
@@ -93,7 +93,7 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
-   h2{
-    color: red;
-   }
-  }
+    h2 {
+        color: red;
+    }
+}
