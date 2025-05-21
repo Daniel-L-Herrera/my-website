@@ -44,7 +44,7 @@ article::after {
 /* Style the navbar */
 .navbar {
     list-style-type: none;
-    background-color: #1a1a1a;
+    
     margin: 0;
     padding: 15px;
     display: flex;
