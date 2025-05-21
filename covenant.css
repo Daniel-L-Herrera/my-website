@@ -4,12 +4,6 @@
     background-color: #454545;
 }
 
-/* Covenant-specific styles */
-#covenant-page {
-    background: linear-gradient(to bottom right, #2e003e, #4b0082, #6a0dad, #8e2de2);
-    color: #e0e0ff;
-}
-
 #covenant-page main {
     background-color: rgba(10, 0, 20, 0.7);
     box-shadow: 0 0 25px #6a0dad;

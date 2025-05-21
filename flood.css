@@ -1,9 +1,6 @@
 /* Flood-specific styles */
 
-#flood-page {
-    background: linear-gradient(to bottom right, #3e2f1c, #4b3621, #5c442b, #6e5234);
-    color: #f0e6d2;
-}
+
 
 #flood-page main {
     background-color: rgba(50, 35, 20, 0.75);

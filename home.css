@@ -7,19 +7,6 @@
     min-width: 35%;
 }
 
-body {
-
-    background-image: url('../images/hp-bg.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 2em;
-    color: white;
-    font-family: 'Segoe UI', sans-serif;
-}
-
-
-
 .faction {
     color: #00bfff;
     text-decoration: none;
