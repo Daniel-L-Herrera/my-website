@@ -63,6 +63,11 @@ img {
     min-width: 35%;
 }
 
+.container-c{
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* Style the navbar */
 .navbar {
