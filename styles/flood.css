@@ -16,7 +16,7 @@
 }
 
 #flood-page section {
-    border: 2px dashed #deb887;
+    border: 2px solid #deb887;
     background-color: rgba(60, 40, 20, 0.3);
 }
 
