@@ -12,6 +12,51 @@
     text-decoration: none;
 }
 
+#unsc-page main {
+    background-color: rgba(0, 0, 0, 0.7);
+    /* already used – optional */
+    box-shadow: 0 0 25px #00bfff;
+    border: 2px solid #00bfff;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.unsc-paragraph-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.unsc-paragraph-grid p {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 1em;
+    border: 2px solid #00bfff;
+    border-radius: 0.75em;
+    box-shadow: 0 0 10px #00bfff;
+}
+
+.unsc-paragraph-grid p:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+/* Covenant link style on UNSC page */
+.covenant-link {
+    color: #00bfff;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px dotted #00bfff;
+    padding-bottom: 2px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.covenant-link:hover {
+    color: #ffcc00;
+    text-shadow: 0 0 5px #ffcc00;
+    border-bottom: 2px dotted #ffcc00;
+}
+
 .nav-link:hover {
     color: #ffcc00;
     /* this id for the back to home link */
@@ -22,29 +67,10 @@ a:hover {
     /* this is for the link on the word "Covenant */
 }
 
-#firstp,
-#secondp {
-    width: 48%;
-}
-
-#firstp {
-    float: left;
-}
-
-#secondp {
-    float: right;
-}
-
-article::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 /* Style the navbar */
 .navbar {
     list-style-type: none;
-    
+
     margin: 0;
     padding: 15px;
     display: flex;
@@ -68,4 +94,10 @@ article::after {
 /* Hover effect */
 .navbar a:hover {
     background-color: #454545;
+}
+
+@media only screen and (max-width: 700px) {
+    .unsc-paragraph-grid {
+        grid-template-columns: 1fr;
+    }
 }
