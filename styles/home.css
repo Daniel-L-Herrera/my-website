@@ -3,8 +3,7 @@
     margin: 1em auto;
     border: 5px solid #00bfff;
     border-radius: 1em;
-    max-width: 50%;
-    min-width: 35%;
+    min-width: 75%;
 }
 
 .faction {
@@ -33,8 +32,6 @@
 #home-page #masterchief {
     border: 5px solid #00ffff;
 }
-
-
 
 #home-page a:hover {
     color: #00cccc;

@@ -48,8 +48,3 @@ html {
     scroll-behavior: smooth;
 }
 
-@media only screen and (max-width: 600px) {
-    #flood-page h2 {
-        color: #bc1aa1;
-    }
-}

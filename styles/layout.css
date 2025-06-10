@@ -18,6 +18,14 @@ main {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     margin-top: 2em;
 }
+
+img{
+    display: block;
+    margin: 1em auto;
+    border: 5px solid #00bfff;
+    border-radius: 1em;
+    width: 75%;
+}
 p {
     line-height: 1.7;
     margin-bottom: 1.5em;
@@ -57,20 +65,10 @@ footer nav {
 
 }
 
-img {
-    display: block;
-    margin: 1em auto;
-    border: 5px solid #00bfff;
-    border-radius: 1em;
-    max-width: 50%;
-    min-width: 35%;
-}
-
 .container-c {
     display: flex;
     flex-direction: column;
 }
-
 
 /* Style the navbar */
 .navbar {
@@ -100,8 +98,9 @@ img {
     background-color: #862727;
 }
 
-@media only screen and (max-width: 600px) {
-    h2 {
-        color: red;
+@media only screen and (max-width: 650px) {
+    img {
+        width: 100%;
+        
     }
 }

@@ -14,11 +14,14 @@
 
 #unsc-page main {
     background-color: rgba(0, 0, 0, 0.7);
-    /* already used – optional */
     box-shadow: 0 0 25px #00bfff;
     border: 2px solid #00bfff;
     padding: 2em;
     border-radius: 1em;
+}
+
+#unsc-image{
+    width: 75%;
 }
 
 .unsc-paragraph-grid {
@@ -99,5 +102,12 @@ a:hover {
 @media only screen and (max-width: 700px) {
     .unsc-paragraph-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    #unsc-image {
+        width: 100%;
     }
 }
